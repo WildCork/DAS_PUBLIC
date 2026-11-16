@@ -18,7 +18,11 @@ Pick one numeric field of a periodic message and see how its value changes over 
 - Coming back to a field restores its popups, zoom and reference lines.
 - Reference lines (y=a), image saving and data export work as on the Periodicity tab.
 
-![④ Visualize · Continuity](images/30_step4_continuity_field_trend__step4-continuity.png)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="images/30_step4_continuity_field_trend__step4-continuity.png">
+  <source media="(prefers-color-scheme: light)" srcset="images/30_step4_continuity_field_trend__step4-continuity__light.png">
+  <img alt="④ Visualize · Continuity" src="images/30_step4_continuity_field_trend__step4-continuity__light.png">
+</picture>
 
 - **1** Toolbar: Fit to Width, Save Chart, and export of the selected field's data.
 - **2** Value trend. Sudden breaks or drops to 0 are likely missing data or sensor faults.

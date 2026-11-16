@@ -19,7 +19,11 @@
 - 장치나 IDL을 지워도 그것을 쓰던 ② 탭의 연결은 남습니다. 지운 뒤 ② 탭을 확인하세요.
 - 장치를 고치거나 지우려면 장치 목록의 행을 더블클릭하거나 우클릭합니다.
 
-![① 장치 / IDL](images/05_step1_device_idl_populated__step1.png)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="images/05_step1_device_idl_populated__step1.png">
+  <source media="(prefers-color-scheme: light)" srcset="images/05_step1_device_idl_populated__step1__light.png">
+  <img alt="① 장치 / IDL" src="images/05_step1_device_idl_populated__step1__light.png">
+</picture>
 
 - **1** 버튼 줄. "+ 장치 추가", "시험분석설정 불러오기", "현재 설정 다시 불러오기"가 있습니다.
 - **2** 장치 목록. 장치마다 그 아래에 소켓(IP:Port)이 나열되며, 행을 더블클릭하면 편집 창이 열립니다.

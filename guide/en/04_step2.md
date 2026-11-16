@@ -18,7 +18,11 @@ Define, one direction at a time, "which IDL decodes packets from which socket to
 - A link without an IDL leaves its payload undecoded, as raw bytes.
 - Remove a wrong row by selecting it and clicking "Delete Selected".
 
-![② Link Setup](images/06_step2_link_table_populated__step2.png)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="images/06_step2_link_table_populated__step2.png">
+  <source media="(prefers-color-scheme: light)" srcset="images/06_step2_link_table_populated__step2__light.png">
+  <img alt="② Link Setup" src="images/06_step2_link_table_populated__step2__light.png">
+</picture>
 
 - **1** Sender side. Choose the sending device and socket.
 - **2** IDL selection and direction swap. Choose the spec that will decode this link's payload, and if needed, swap sender/receiver to quickly add the opposite-direction link.

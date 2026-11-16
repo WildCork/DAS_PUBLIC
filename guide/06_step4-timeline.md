@@ -20,7 +20,11 @@
 - lsb/msb가 있는 필드는 단위가 붙은 물리값으로 표시됩니다.
 - 뒤로 가기/앞으로 가기(Ctrl+Z/Ctrl+Y)는 시각화 하위 탭마다 따로 기록됩니다.
 
-![④ 시각화 · 시간선](images/14_step4_timeline_message_detail__step4-timeline.png)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="images/14_step4_timeline_message_detail__step4-timeline.png">
+  <source media="(prefers-color-scheme: light)" srcset="images/14_step4_timeline_message_detail__step4-timeline__light.png">
+  <img alt="④ 시각화 · 시간선" src="images/14_step4_timeline_message_detail__step4-timeline__light.png">
+</picture>
 
 - **1** 미니맵. 캡처 전체를 압축해 보여 주며, 강조 상자가 지금 보이는 구간입니다.
 - **2** 메시지 상세. 선택한 메시지의 헤더 정보와 IDL 구조체를 필드/값/크기로 펼칩니다.

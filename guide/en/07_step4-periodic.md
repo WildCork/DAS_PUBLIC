@@ -19,7 +19,11 @@ Plots the interval between consecutive occurrences of IDL-declared periodic mess
 - Ctrl+wheel zooms, dragging or Shift+wheel pans, and "Fit to Width" goes back to the start.
 - Up to 3 info popups can be open; move one by its title bar and resize it by its bottom-right corner.
 
-![④ Visualize · Periodicity](images/19_step4_periodic_line_chart__step4-periodic.png)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="images/19_step4_periodic_line_chart__step4-periodic.png">
+  <source media="(prefers-color-scheme: light)" srcset="images/19_step4_periodic_line_chart__step4-periodic__light.png">
+  <img alt="④ Visualize · Periodicity" src="images/19_step4_periodic_line_chart__step4-periodic__light.png">
+</picture>
 
 - **1** View switch and saving: Line Chart/Box Plot, Fit to Width, Save Chart, Export Parsed Data.
 - **2** Line chart. X is elapsed time, Y the interval between two consecutive occurrences; sharp spikes are likely gaps or delays.

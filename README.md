@@ -4,7 +4,11 @@
 
 DAS(Data Analysis System)는 시험 네트워크 캡처를 장치·연결·IDL 구성에 맞춰 해석하고, 분석 결과를 시각화·문서화하는 Windows 데스크톱 프로그램입니다.
 
-![DAS 시간선 분석 화면 -- 장치 사이 메시지 흐름과 선택한 메시지의 해석된 필드](assets/hero.png)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/hero.png">
+  <source media="(prefers-color-scheme: light)" srcset="assets/hero_light.png">
+  <img alt="DAS 시간선 분석 화면 -- 장치 사이 메시지 흐름과 선택한 메시지의 해석된 필드" src="assets/hero_light.png">
+</picture>
 
 **[⬇ 최신 배포판 받기](https://github.com/WildCork/DAS_PUBLIC/releases/latest)** · [설치와 실행](guide/install.md) · [사용 가이드](#사용-가이드)
 

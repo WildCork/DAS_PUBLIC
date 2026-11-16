@@ -20,7 +20,11 @@ Load a PCAPNG, decode it with the settings from tabs ① and ②, and choose the
 - With the "Live load" toggle on, DAS follows the file dumpcap is writing every 1-10 s and shows the latest packets.
 - "Export Parsed Data" saves the decoded results as CSV/XLSX files per device pair.
 
-![③ Test Analysis Settings](images/12_step3_pcapng_message_tree__step3.png)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="images/12_step3_pcapng_message_tree__step3.png">
+  <source media="(prefers-color-scheme: light)" srcset="images/12_step3_pcapng_message_tree__step3__light.png">
+  <img alt="③ Test Analysis Settings" src="images/12_step3_pcapng_message_tree__step3__light.png">
+</picture>
 
 - **1** PCAPNG load panel. Pick a file and click "Load" to see its details and packet count.
 - **2** Filter toolbar: select/deselect all, collapse/expand all, the smart filter toggle and ratio, and "Apply Filter".

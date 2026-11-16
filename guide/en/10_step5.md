@@ -19,7 +19,11 @@ Extracts time points, values, periods and response times from the loaded capture
 - Double-click a row to edit, drag the No. cell to reorder, right-click adjacent rows to group them into a stage/category.
 - The gear button above the table sets how many digits real values show (verdicts always use full precision).
 
-![⑤ Analysis Results · Report](images/36_step5_report_checklist_populated__step5.png)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="images/36_step5_report_checklist_populated__step5.png">
+  <source media="(prefers-color-scheme: light)" srcset="images/36_step5_report_checklist_populated__step5__light.png">
+  <img alt="⑤ Analysis Results · Report" src="images/36_step5_report_checklist_populated__step5__light.png">
+</picture>
 
 - **1** Add timelines and check items (timing/value/period/response time) with the "Add Timeline"/"Add Check Item" buttons at the top left.
 - **2** With "Manage Template" at the top right you can load a previously saved report template JSON to reuse its setup, or save the current setup as a template.

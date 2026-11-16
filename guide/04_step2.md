@@ -18,7 +18,11 @@
 - IDL을 고르지 않은 연결은 payload가 해석되지 않고 원시 바이트로만 남습니다.
 - 잘못 넣은 행은 선택한 뒤 "선택 삭제"로 지웁니다.
 
-![② 연결 설정](images/06_step2_link_table_populated__step2.png)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="images/06_step2_link_table_populated__step2.png">
+  <source media="(prefers-color-scheme: light)" srcset="images/06_step2_link_table_populated__step2__light.png">
+  <img alt="② 연결 설정" src="images/06_step2_link_table_populated__step2__light.png">
+</picture>
 
 - **1** 발신측. 발신 장치와 소켓을 고릅니다.
 - **2** IDL 선택과 방향 전환. 이 연결의 payload를 해석할 규격을 고르고, 필요하면 발신/수신을 맞바꿔 반대 방향 연결을 빠르게 추가합니다.

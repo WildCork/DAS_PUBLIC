@@ -20,7 +20,11 @@ Lays messages out in device columns and time order to show "who sent what to who
 - Fields with lsb/msb are shown as physical values with units.
 - Back/Forward (Ctrl+Z/Ctrl+Y) keeps a separate history for each visualization sub-tab.
 
-![④ Visualize · Timeline](images/14_step4_timeline_message_detail__step4-timeline.png)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="images/14_step4_timeline_message_detail__step4-timeline.png">
+  <source media="(prefers-color-scheme: light)" srcset="images/14_step4_timeline_message_detail__step4-timeline__light.png">
+  <img alt="④ Visualize · Timeline" src="images/14_step4_timeline_message_detail__step4-timeline__light.png">
+</picture>
 
 - **1** Minimap. Shows the whole capture compressed; the highlighted box is the part currently in view.
 - **2** Message details. The selected message's header info and its IDL structure as field/value/size.

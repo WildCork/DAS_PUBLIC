@@ -20,7 +20,11 @@ PCAPNG를 불러와 ①·② 탭의 설정대로 해석하고, ④·⑤ 탭에�
 - "실시간 로드" 토글을 켜면 dumpcap이 쓰는 파일을 1~10초마다 따라가며 최근 패킷을 보여 줍니다.
 - "파싱된 데이터 내보내기"는 해석 결과를 장치쌍별 CSV/XLSX 파일로 저장합니다.
 
-![③ 시험 분석 설정](images/12_step3_pcapng_message_tree__step3.png)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="images/12_step3_pcapng_message_tree__step3.png">
+  <source media="(prefers-color-scheme: light)" srcset="images/12_step3_pcapng_message_tree__step3__light.png">
+  <img alt="③ 시험 분석 설정" src="images/12_step3_pcapng_message_tree__step3__light.png">
+</picture>
 
 - **1** PCAPNG 로드 패널. 파일을 고르고 "로드"를 누르면 파일 정보와 패킷 수가 표시됩니다.
 - **2** 필터 툴바. 전체 선택/해제, 모두 접기/펼치기, 스마트 필터 토글과 비율, "필터 적용"이 있습니다.

@@ -19,7 +19,11 @@
 - 행을 더블클릭하면 편집, 순번 칸을 끌면 순서 변경, 인접한 여러 행을 우클릭하면 점검 단계/구분으로 묶습니다.
 - 표 위 톱니바퀴 버튼에서 실수 값의 표시 자리수를 정합니다(판정은 원래 정밀도로 계산).
 
-![⑤ 시험분석결과 · 성적서](images/36_step5_report_checklist_populated__step5.png)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="images/36_step5_report_checklist_populated__step5.png">
+  <source media="(prefers-color-scheme: light)" srcset="images/36_step5_report_checklist_populated__step5__light.png">
+  <img alt="⑤ 시험분석결과 · 성적서" src="images/36_step5_report_checklist_populated__step5__light.png">
+</picture>
 
 - **1** 왼쪽 위 "시간선 추가"/"점검항목 추가" 버튼으로 시간선과 점검항목(시점/값/주기/응답시간)을 추가합니다.
 - **2** 오른쪽 위 "양식 관리"에서 이전에 저장해 둔 성적서 양식 JSON을 불러와 구성을 재사용하거나, 지금 구성을 양식으로 저장할 수 있습니다.

@@ -19,7 +19,11 @@ IDL이 주기로 선언한 메시지의 연속 발생 간격을 그래프로 그
 - Ctrl+휠로 확대하고, 끌기나 Shift+휠로 이동하며, "전체 보기"로 처음 상태로 돌아갑니다.
 - 정보 팝업은 3개까지 띄울 수 있고, 제목 줄로 옮기고 오른쪽 아래 모서리로 크기를 바꿉니다.
 
-![④ 시각화 · 주기성](images/19_step4_periodic_line_chart__step4-periodic.png)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="images/19_step4_periodic_line_chart__step4-periodic.png">
+  <source media="(prefers-color-scheme: light)" srcset="images/19_step4_periodic_line_chart__step4-periodic__light.png">
+  <img alt="④ 시각화 · 주기성" src="images/19_step4_periodic_line_chart__step4-periodic__light.png">
+</picture>
 
 - **1** 보기 전환과 저장. 라인 차트/박스 플롯, 전체 보기, 시각화 결과 저장, 파싱된 데이터 내보내기가 있습니다.
 - **2** 라인 차트. X축은 경과 시간, Y축은 연속된 두 발생의 간격이며, 뾰족하게 튄 곳이 누락이나 지연 후보입니다.

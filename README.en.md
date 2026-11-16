@@ -4,7 +4,11 @@
 
 DAS (Data Analysis System) is a Windows desktop program that decodes test-network captures against your device, link and IDL configuration, then turns the results into visualizations and documents.
 
-![DAS timeline analysis -- message flow between devices and the decoded fields of the selected message](assets/hero_en.png)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/hero_en.png">
+  <source media="(prefers-color-scheme: light)" srcset="assets/hero_en_light.png">
+  <img alt="DAS timeline analysis -- message flow between devices and the decoded fields of the selected message" src="assets/hero_en_light.png">
+</picture>
 
 **[⬇ Download the latest release](https://github.com/WildCork/DAS_PUBLIC/releases/latest)** · [Installation and First Run](guide/en/install.md) · [User Guide](#user-guide)
 

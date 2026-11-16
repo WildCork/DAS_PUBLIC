@@ -19,7 +19,11 @@ Register the devices and sockets (IP:Port) taking part in the test and the IDL f
 - Deleting a device or IDL leaves the links on tab ② that used it. Check tab ② afterwards.
 - To edit or delete a device, double-click or right-click its row in the device list.
 
-![① Devices / IDL](images/05_step1_device_idl_populated__step1.png)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="images/05_step1_device_idl_populated__step1.png">
+  <source media="(prefers-color-scheme: light)" srcset="images/05_step1_device_idl_populated__step1__light.png">
+  <img alt="① Devices / IDL" src="images/05_step1_device_idl_populated__step1__light.png">
+</picture>
 
 - **1** Button row: "+ Add Device", "Load Test Analysis Config" and "Reload Current Settings".
 - **2** Device list. Each device lists its sockets (IP:Port) below it; double-click a row to edit it.

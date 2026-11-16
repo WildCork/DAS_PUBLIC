@@ -16,7 +16,11 @@ DAS interprets a launch test network capture (PCAPNG) according to your device/I
 
 - Earlier steps' settings are the basis for how later steps interpret data -- skipping ahead can leave the ④/⑤ screens looking empty.
 
-![Quick Start](images/01_step1_device_idl_empty__quick-start.png)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="images/01_step1_device_idl_empty__quick-start.png">
+  <source media="(prefers-color-scheme: light)" srcset="images/01_step1_device_idl_empty__quick-start__light.png">
+  <img alt="Quick Start" src="images/01_step1_device_idl_empty__quick-start__light.png">
+</picture>
 
 - **1** Top-left button row. No device is registered yet, so "Reload Current Settings" is grayed out and the line below reads "Current config: none". Register devices one by one with "+ Add Device", or if you already have an endpoints.lua or DAS config JSON, fill everything in at once with the green "Load Test Analysis Config".
 - **2** Device List (left). The list is empty because no devices exist yet, and the status bar at the bottom also reads "0 devices." This is exactly the screen you see the first time you open the program, or right after pressing "Delete All."

@@ -16,7 +16,11 @@ DAS는 발사 시험 네트워크 캡처(PCAPNG)를 장치/IDL 설정에 맞춰 
 
 - 앞 단계의 설정이 뒤 단계 해석의 기준이 되므로, 순서를 건너뛰면 ④·⑤ 단계 화면이 비어 보일 수 있습니다.
 
-![빠른 시작](images/01_step1_device_idl_empty__quick-start.png)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="images/01_step1_device_idl_empty__quick-start.png">
+  <source media="(prefers-color-scheme: light)" srcset="images/01_step1_device_idl_empty__quick-start__light.png">
+  <img alt="빠른 시작" src="images/01_step1_device_idl_empty__quick-start__light.png">
+</picture>
 
 - **1** 좌측 상단 버튼 줄. 지금은 등록된 장치가 없어 "현재 설정 다시 불러오기"가 회색으로 비활성화돼 있고, 그 아래에는 "현재 설정: 없음"으로 표시됩니다. "+ 장치 추가"로 처음부터 하나씩 등록하거나, 이미 만들어 둔 endpoints.lua나 DAS 설정 JSON이 있다면 초록색 "시험분석설정 불러오기"로 한 번에 채울 수 있습니다.
 - **2** 장치 목록 (좌측). 지금은 장치가 하나도 없어 목록이 비어 있고, 화면 맨 아래 상태줄에도 "장치 0개"로 표시됩니다. 프로그램을 처음 열었을 때, 또는 "전체 삭제"를 누른 직후 보게 되는 화면이 바로 이 상태입니다.

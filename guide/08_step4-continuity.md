@@ -18,7 +18,11 @@
 - 다른 필드를 보다가 돌아오면 그 필드에서 띄운 팝업·확대·기준선이 그대로 남아 있습니다.
 - 기준선(y=a), 이미지 저장, 데이터 내보내기는 주기성 탭과 같은 방식입니다.
 
-![④ 시각화 · 연속성](images/30_step4_continuity_field_trend__step4-continuity.png)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="images/30_step4_continuity_field_trend__step4-continuity.png">
+  <source media="(prefers-color-scheme: light)" srcset="images/30_step4_continuity_field_trend__step4-continuity__light.png">
+  <img alt="④ 시각화 · 연속성" src="images/30_step4_continuity_field_trend__step4-continuity__light.png">
+</picture>
 
 - **1** 툴바. 전체 보기, 시각화 결과 저장, 선택한 필드의 데이터 내보내기가 있습니다.
 - **2** 값 추이 그래프. 갑자기 끊기거나 0으로 떨어지는 곳은 결측이나 센서 이상 후보입니다.
