@@ -4,7 +4,7 @@ DAS는 설치 과정이 없습니다. 압축을 풀고 `DAS.exe`를 실행하면
 
 ## 1. 받기
 
-이 저장소의 **Releases** 페이지에서 가장 최근의 `DAS_Release_<날짜>.zip`을 받습니다.
+이 저장소의 [Releases 페이지](https://github.com/WildCork/DAS_PUBLIC/releases/latest)에서 가장 최근의 `DAS_Release_<날짜>.zip`을 받습니다.
 
 ## 2. 압축 풀기
 
