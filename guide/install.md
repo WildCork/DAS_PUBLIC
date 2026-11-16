@@ -1,3 +1,5 @@
+**한국어** | [English](en/install.md)
+
 # 설치와 실행
 
 DAS는 설치 과정이 없습니다. 압축을 풀고 `DAS.exe`를 실행하면 됩니다.
@@ -15,6 +17,7 @@ DAS는 설치 과정이 없습니다. 압축을 풀고 `DAS.exe`를 실행하면
 | `Run\` | `DAS.exe`와 실행에 필요한 Qt 라이브러리(DLL) |
 | `Data\` | 예시 설정(`endpoints.json`), IDL 파일, 예시 캡처(`launch_result_*.pcapng`), 성적서 양식 예시 |
 | `README.md` | 프로그램 소개 |
+| `LICENSE.txt`, `ThirdPartyLicenses\` | 이용 조건과 함께 배포하는 라이브러리의 라이선스 |
 
 - `Run\` 폴더 안의 파일은 함께 있어야 합니다. `DAS.exe`만 다른 곳으로 복사하면 실행되지 않습니다.
 - 바탕화면 바로가기가 필요하면 `DAS.exe`를 복사하지 말고 **바로 가기 만들기**를 쓰세요.

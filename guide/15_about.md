@@ -1,3 +1,5 @@
+**한국어** | [English](en/15_about.md)
+
 # 프로그램 정보
 
 DAS(Data Analysis System)는 발사 시험 네트워크 캡처를 장치/IDL 규격에 따라 해석하고, 시각화와 성적서로 정리하는 Windows 데스크톱 프로그램입니다.

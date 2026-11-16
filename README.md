@@ -1,3 +1,5 @@
+**한국어** | [English](README.en.md)
+
 # DAS 사용 가이드
 
 DAS(Data Analysis System)는 시험 네트워크 캡처를 장치·연결·IDL 구성에 맞춰 해석하고, 분석 결과를 시각화·문서화하는 Windows 데스크톱 프로그램입니다.
