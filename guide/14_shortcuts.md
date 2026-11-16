@@ -13,4 +13,4 @@
 
 ---
 
-[← 문제 해결](09_troubleshooting.md) · [목차](../README.md#사용-가이드) · [프로그램 정보 →](11_about.md)
+[← 문제 해결](13_troubleshooting.md) · [목차](../README.md#사용-가이드) · [프로그램 정보 →](15_about.md)

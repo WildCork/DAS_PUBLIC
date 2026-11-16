@@ -30,4 +30,4 @@
 
 ---
 
-[← 마우스 및 숨겨진 조작](08_mouse-hidden.md) · [목차](../README.md#사용-가이드) · [단축키 및 지원 파일 형식 →](10_shortcuts.md)
+[← 마우스 및 숨겨진 조작](12_mouse-hidden.md) · [목차](../README.md#사용-가이드) · [단축키 및 지원 파일 형식 →](14_shortcuts.md)

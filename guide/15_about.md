@@ -9,4 +9,4 @@ DAS(Data Analysis System)는 발사 시험 네트워크 캡처를 장치/IDL 규
 
 ---
 
-[← 단축키 및 지원 파일 형식](10_shortcuts.md) · [목차](../README.md#사용-가이드)
+[← 단축키 및 지원 파일 형식](14_shortcuts.md) · [목차](../README.md#사용-가이드)

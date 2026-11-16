@@ -21,4 +21,4 @@
 
 ---
 
-[← 5단계 시험분석결과](07_step5.md) · [목차](../README.md#사용-가이드) · [문제 해결 →](09_troubleshooting.md)
+[← ⑤ 시험분석결과 · 대시보드](11_step5-composite.md) · [목차](../README.md#사용-가이드) · [문제 해결 →](13_troubleshooting.md)

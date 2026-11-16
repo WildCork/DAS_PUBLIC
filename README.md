@@ -2,9 +2,11 @@
 
 DAS(Data Analysis System)는 시험 네트워크 캡처를 장치·연결·IDL 구성에 맞춰 해석하고, 분석 결과를 시각화·문서화하는 Windows 데스크톱 프로그램입니다.
 
-이 저장소에는 DAS **사용 가이드**만 있습니다. 프로그램 안의 `F1` 도움말과 같은 내용이며, 화면별 스크린샷과 번호 설명이 함께 들어 있습니다.
+이 저장소에는 DAS **사용 가이드**만 있습니다. 프로그램 안의 `F1` 도움말(탭마다 그 탭의 설명)과 같은 원본에서 만들며, 설정 파일 작성 규칙·문제 해결 같은 공통 항목과 화면별 스크린샷·번호 설명이 함께 들어 있습니다.
 
-> DAS는 저장된 PCAPNG와 legacy PCAP 파일을 분석하는 오프라인 프로그램입니다. 실시간 캡처 기능은 없습니다.
+처음이라면 [설치와 실행](guide/install.md)부터 보세요. 프로그램은 **Releases**에서 받습니다.
+
+> DAS는 저장된 PCAPNG와 legacy PCAP 파일을 분석하는 프로그램입니다. 패킷을 직접 캡처하지는 않으며, dumpcap 등이 기록 중인 파일을 따라가며 읽는 실시간 로드를 지원합니다.
 
 ## 무엇을 할 수 있나요?
 
@@ -35,18 +37,23 @@ DAS(Data Analysis System)는 시험 네트워크 캡처를 장치·연결·IDL �
 
 ## 사용 가이드
 
+- [설치와 실행](guide/install.md)
 - [빠른 시작](guide/00_quick-start.md)
 - [전체 사용 순서](guide/01_workflow.md)
 - [0단계: 시험 Config 파일 설정](guide/02_config-files.md) — endpoints.lua 작성 규칙, DAS 설정 JSON 형식, IDL 파일 작성 규칙
-- [1단계 장치 / IDL](guide/03_step1.md) — 설정 불러오기, 장치와 소켓 등록, IDL 등록, IDL 메시지 편집, 메시지 정보(설명·주기성), 추가 식별자 관리, 스마트 필터 대상 관리
-- [2단계 연결 설정](guide/04_step2.md) — 연결 추가 및 편집
-- [3단계 시험 분석 설정](guide/05_step3.md) — 설정 저장, PCAPNG 불러오기, 메시지 트리, 스마트 필터, 요청-응답 관계 설정
-- [4단계 시각화](guide/06_step4.md) — 시간선 분석, 송신 메시지 전시 관리, 시간선 표시 필터, 메시지 상세, 주기 분석, Box Plot, 연속성 분석, 응답성 분석, 축 설정 및 차트 내보내기, 뒤로 가기 / 앞으로 가기
-- [5단계 시험분석결과](guide/07_step5.md) — 성적서 형식 불러오기, 점검 항목 작성 및 편집, 성적서 저장, 성적서 수치 표시 설정, 대시보드
-- [마우스 및 숨겨진 조작](guide/08_mouse-hidden.md)
-- [문제 해결](guide/09_troubleshooting.md)
-- [단축키 및 지원 파일 형식](guide/10_shortcuts.md)
-- [프로그램 정보](guide/11_about.md)
+- [① 장치 / IDL](guide/03_step1.md) — IDL 메시지 편집
+- [② 연결 설정](guide/04_step2.md)
+- [③ 시험 분석 설정](guide/05_step3.md) — 스마트 필터, 요청-응답 관계
+- [④ 시각화 · 시간선](guide/06_step4-timeline.md)
+- [④ 시각화 · 주기성](guide/07_step4-periodic.md)
+- [④ 시각화 · 연속성](guide/08_step4-continuity.md)
+- [④ 시각화 · 응답성](guide/09_step4-response.md)
+- [⑤ 시험분석결과 · 성적서](guide/10_step5.md)
+- [⑤ 시험분석결과 · 대시보드](guide/11_step5-composite.md)
+- [마우스 및 숨겨진 조작](guide/12_mouse-hidden.md)
+- [문제 해결](guide/13_troubleshooting.md)
+- [단축키 및 지원 파일 형식](guide/14_shortcuts.md)
+- [프로그램 정보](guide/15_about.md)
 
 ## 지원 파일
 
