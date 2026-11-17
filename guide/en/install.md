@@ -15,7 +15,7 @@ Unzip it into any folder (for example `C:\DAS`). You get the following:
 | Folder / file | Contents |
 |---|---|
 | `Run\` | `DAS.exe` and the Qt runtime libraries (DLLs) it needs |
-| `Data\` | Example configuration (`endpoints.json`), IDL files, example captures (`launch_result_*.pcapng`), example report template |
+| `Data\` | Example configuration (`endpoints.json`), IDL files, example captures (`launch_result_*.pcapng`), example report templates (English `launch_procedure_report_template_example_en.json`, Korean `발사절차_성적서_양식_예시.json`) |
 | `README.md` | Program overview |
 | `LICENSE.txt`, `ThirdPartyLicenses\` | Terms of use and the licenses of bundled libraries |
 
@@ -44,7 +44,7 @@ You can also open a configuration and a capture together from the command line (
 .\DAS.exe --config ..\Data\endpoints.json --pcapng ..\Data\launch_result_1k.pcapng
 ```
 
-`launch_result_10k.pcapng` is a longer capture of the same scenario; the `_withNoise` and `_anomaly` captures mix in noise and abnormal situations. The example data is a simulated launch procedure, not real test data. The example report template's check items are written in Korean -- DAS never translates data from configuration, IDL or template files.
+`launch_result_10k.pcapng` is a longer capture of the same scenario; the `_withNoise` and `_anomaly` captures mix in noise and abnormal situations. The example data is a simulated launch procedure, not real test data. To try a report, load `Data\launch_procedure_report_template_example_en.json` from **Manage Template** on ⑤ Analysis Results → Report -- DAS never translates text inside configuration, IDL or template files, so use the English template for English check items.
 
 ## 5. Where data is stored, and uninstalling
 

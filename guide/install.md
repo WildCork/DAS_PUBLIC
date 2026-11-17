@@ -15,7 +15,7 @@ DAS는 설치 과정이 없습니다. 압축을 풀고 `DAS.exe`를 실행하면
 | 폴더 | 내용 |
 |---|---|
 | `Run\` | `DAS.exe`와 실행에 필요한 Qt 라이브러리(DLL) |
-| `Data\` | 예시 설정(`endpoints.json`), IDL 파일, 예시 캡처(`launch_result_*.pcapng`), 성적서 양식 예시 |
+| `Data\` | 예시 설정(`endpoints.json`), IDL 파일, 예시 캡처(`launch_result_*.pcapng`), 성적서 양식 예시(한국어 `발사절차_성적서_양식_예시.json`, 영어 `launch_procedure_report_template_example_en.json`) |
 | `README.md` | 프로그램 소개 |
 | `LICENSE.txt`, `ThirdPartyLicenses\` | 이용 조건과 함께 배포하는 라이브러리의 라이선스 |
 
